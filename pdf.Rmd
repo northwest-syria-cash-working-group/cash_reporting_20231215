@@ -275,7 +275,7 @@ cbr %>%
 ```{r progress-line, fig.height=6}
   # This is the messiest chunk in the whole document. Can you please fix it? 
 
-progress_max_date <- "2023-11-15"
+progress_max_date <- "2023-12-15"
 
 progress_line <- cbr %>%
   filter(!is.na(end_date)) %>% 
